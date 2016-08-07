@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    background: url('/assets/logos/map_only@2x.png') no-repeat fixed;
+    background: url('assets/logos/map_only@2x.png') no-repeat fixed;
     background-position: right;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
