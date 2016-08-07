@@ -17,6 +17,7 @@ body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
     background-color: $background-color;
+    height: 100vh;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -34,7 +35,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 1%;
 }
 
 
@@ -156,12 +157,11 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 4));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 4));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    text-align: center;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
