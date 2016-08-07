@@ -41,6 +41,12 @@ $on-laptop:        800px;
 
 /* ========== Global Styles ========== */
 
+address {
+  font-style: inherit;
+}
+
+/* ========== Homepage Styles ========== */
+
 .home {
   display: flex;
   justify-content: space-between;
