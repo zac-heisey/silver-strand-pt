@@ -7,15 +7,14 @@
         <ul class="contact-list">
           <li>{{ site.title | escape }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li>(503) 453-4841</li>
+          <li>{{ site.data.footer_contact.phone }}</li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         <address>
-          <p>1155 13th Street</p>
-          <p>Imperial Beach, CA</p>
-          <p>91932</p>
+          <p>{{ site.data.footer_contact.address_street }}</p>
+          <p>{{ site.data.footer_contact.address_city }}</p>
         </address>
       </div>
     </div>
