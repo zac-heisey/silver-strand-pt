@@ -52,8 +52,8 @@ address {
 /* ========== Main Nav Styles ========== */
 
 .site-nav .page-link:hover {
-  text-decoration: underline;
-  text-decoration-color: #FEC10E;
+  color: #FEC10E;
+  transition-duration: .5s;
 }
 
 
