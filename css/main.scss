@@ -45,13 +45,8 @@ address {
   font-style: inherit;
 }
 
+.content-section {
+  max-width: 35%;
+}
+
 /* ========== Homepage Styles ========== */
-
-.home {
-  display: flex;
-  justify-content: space-between;
-}
-
-.home-content {
-  text-align: left;
-}
