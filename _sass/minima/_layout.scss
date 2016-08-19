@@ -28,8 +28,6 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-        -webkit-transition: .5s .5s;
-        transition: .5s .5s;
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
