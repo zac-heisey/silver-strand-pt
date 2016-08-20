@@ -94,6 +94,10 @@
     bottom: 0;
     position: fixed;
     width: 100%;
+
+    @include media-query($on-palm) {
+      position: relative;
+    }
 }
 
 .footer-heading {
