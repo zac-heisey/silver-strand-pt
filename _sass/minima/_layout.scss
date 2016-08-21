@@ -135,7 +135,7 @@
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));
     text-align: right;
-    padding-right: $spacing-unit * 2.75; /* Remove this extra padding later */
+    margin-top: $spacing-unit / 2;
 }
 
 @include media-query($on-laptop) {
@@ -165,7 +165,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit / 2 0;
 }
 
 .page-heading {
@@ -212,6 +212,12 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    display: flex;
+    justify-content: space-between;
+
+    @include media-query($on-laptop) {
+      flex-direction: column;
+    }
 
     h2 {
         font-size: 32px;

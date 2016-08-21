@@ -45,15 +45,48 @@ address {
   font-style: inherit;
 }
 
-.content-intro, .post-content {
-  max-width: 35%;
-}
-
 /* ========== Main Nav Styles ========== */
 
 .site-nav .page-link:hover {
   color: #FEC10E;
   transition-duration: .5s;
+}
+
+/* ========== Staff Page Styles ========== */
+
+.staff-bio {
+  max-width: 30%;
+  text-align: left;
+
+  @include media-query($on-laptop) {
+    max-width: 90%;
+    margin-bottom: $spacing-unit;
+  }
+
+}
+
+.education {
+  color: $brand-color;
+  list-style: none;
+}
+
+/* ========== Services Page Styles ========== */
+
+#services-list {
+  margin-left: $spacing-unit;
+}
+
+/* ========== Insurance Page Styles ========== */
+
+#insurance-list {
+  margin-left: $spacing-unit;
+}
+
+/* ========== Insurance Page Styles ========== */
+
+#contact-page-address {
+  color: $brand-color;
+  margin: $spacing-unit / 2 0 $spacing-unit / 2 0;
 }
 
 /* ========== Footer Styles ========== */
