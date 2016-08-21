@@ -45,6 +45,10 @@ address {
   font-style: inherit;
 }
 
+.bulleted-list {
+  margin-left: 2rem;
+}
+
 /* ========== Main Nav Styles ========== */
 
 .site-nav .page-link:hover {
@@ -52,14 +56,26 @@ address {
   transition-duration: .5s;
 }
 
+/* ========== Homepage Styles ========== */
+
+.home-content {
+  width: 50%;
+  margin-bottom: $spacing-unit / 2;
+
+  @include media-query($on-laptop) {
+    width: 90%;
+  }
+
+}
+
 /* ========== Staff Page Styles ========== */
 
 .staff-bio {
-  max-width: 30%;
+  width: 30%;
   text-align: left;
 
   @include media-query($on-laptop) {
-    max-width: 90%;
+    width: 90%;
     margin-bottom: $spacing-unit;
   }
 
@@ -68,18 +84,6 @@ address {
 .education {
   color: $brand-color;
   list-style: none;
-}
-
-/* ========== Services Page Styles ========== */
-
-#services-list {
-  margin-left: $spacing-unit;
-}
-
-/* ========== Insurance Page Styles ========== */
-
-#insurance-list {
-  margin-left: $spacing-unit;
 }
 
 /* ========== Insurance Page Styles ========== */
