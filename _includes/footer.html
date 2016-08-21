@@ -4,11 +4,8 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title | escape }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li>{{ site.data.footer_info.phone }}</li>
-        </ul>
+        <p><a href="mailto:{{ site.data.footer_info.email }}">{{ site.data.footer_info.email }}</a></p>
+        <p>{{ site.data.footer_info.phone }}</p>
       </div>
 
       <div class="footer-col footer-col-2">
