@@ -59,7 +59,8 @@ address {
 /* ========== Homepage Styles ========== */
 
 .home-content {
-  width: 50%;
+  width: 70%;
+  max-width: $on-laptop; /* 800px */
   margin-bottom: $spacing-unit / 2;
 
   @include media-query($on-laptop) {
