@@ -25,3 +25,5 @@ url: "http://silverstrandpt.com/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 theme: minima
+exclude:
+  - "*.sketch"
