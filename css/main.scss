@@ -87,11 +87,16 @@ address {
   list-style: none;
 }
 
-/* ========== Insurance Page Styles ========== */
+/* ========== Contact Page Styles ========== */
 
 #contact-page-address {
   color: $brand-color;
   margin: $spacing-unit / 2 0 $spacing-unit / 2 0;
 }
 
-/* ========== Footer Styles ========== */
+/* ========== pt_clinic Landing Page Styles ========== */
+
+#lp-service-areas {
+  color: $text-color;
+  margin: $spacing-unit / 2 0 $spacing-unit / 2 0;
+}
