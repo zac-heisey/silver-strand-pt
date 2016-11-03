@@ -16,9 +16,9 @@
 title: Silver Strand Physical Therapy
 email: admin@silverstrandpt.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Silver Stand Physical Therapy! We provide physical
-  therapy services to patients throughout Silver Strand, Imperial
-  Beach, and surrounding areas.
+  Silver Stand Physical Therapy provides physical therapy services
+  to patients throughout Imperial Beach and the South Bay. Schedule
+  an initial evaluation today!
 baseurl: "/silver-strand-pt" # the subpath of dev site, e.g. /silver-strand-pt <-- Change this to "" before pushing to FTP
 url: "http://silverstrandpt.com/" # the base hostname & protocol for your site
 
