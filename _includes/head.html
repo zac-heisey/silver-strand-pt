@@ -4,7 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% if page.description %}
+  <meta name="description" content="{{ page.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% else %}
+  <meta name="description" content="{{ site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  {% endif %}
 
   <link href='https://fonts.googleapis.com/css?family=Oswald:300|Bilbo+Swash+Caps' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.github.url }}">
